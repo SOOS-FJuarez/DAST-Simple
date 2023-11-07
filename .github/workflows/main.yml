@@ -11,7 +11,7 @@ jobs:
 
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: 'GH Actions - DAST simple PROD 11-02'          
+          project_name: 'GH Actions - DAST simple PROD'          
           target_url: 'https://joaquinalvarez.dev/'
           api_url: 'https://api.soos.io/api/'          
           auth_login_url: 'https://joaquinalvarez.dev/'             
