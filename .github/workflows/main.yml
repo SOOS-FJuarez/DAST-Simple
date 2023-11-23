@@ -8,10 +8,9 @@ jobs:
       - name: Run SOOS DAST Baseline Analysis
         uses: soos-io/soos-dast-github-action@feature/PA-11731 # GET Latest Version from https://github.com/marketplace/actions/soos-dast
         with:
-
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: 'GH Actions - DAST simple'          
-          target_url: 'https://joaquinalvarez.dev/'
-          api_url: 'https://qa-api.soos.io/api/'             
+          project_name: "GH Actions - DAST simple"
+          target_url: "https://joaquinalvarez.dev/"
+          api_url: "https://qa-api.soos.io/api/"
 
