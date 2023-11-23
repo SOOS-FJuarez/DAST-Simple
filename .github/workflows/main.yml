@@ -13,6 +13,5 @@ jobs:
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: 'GH Actions - DAST simple'          
           target_url: 'https://joaquinalvarez.dev/'
-          api_url: 'https://qa-api.soos.io/api/'          
-          auth_login_url: 'https://google-gruyere.appspot.com/'             
+          api_url: 'https://qa-api.soos.io/api/'             
 
