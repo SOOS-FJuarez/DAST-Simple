@@ -13,5 +13,5 @@ jobs:
           project_name: "GH Actions - Dast Simple"
           target_url: "https://brokencrystals.com/"
           api_url: "https://qa-api.soos.io/api/"
-          outputFormat: SARIF
+          output_format: "SARIF"
 
