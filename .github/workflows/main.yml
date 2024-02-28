@@ -13,6 +13,6 @@ jobs:
           project_name: "GH Actions - Dast Simple"
           target_url: "https://joaquinalvarez.dev/"
           api_url: "https://api.soos.io/api/"
-          other_options: "-d"
+          request_headers: "headerTestA:a,headerTestB:b"
          
 
