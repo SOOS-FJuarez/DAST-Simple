@@ -12,6 +12,6 @@ jobs:
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "GH Actions - Dast Simple"
           target_url: "https://brokencrystals.com/"
-          api_url: "https://api.soos.io/api/"
+          api_url: "https://qa-api.soos.io/api/"
          
 
