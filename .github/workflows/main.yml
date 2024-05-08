@@ -13,9 +13,8 @@ jobs:
           project_name: "GH Actions - DAST Simple"
           target_url: "https://joaquinalvarez.dev/"
           api_url: "https://qa-api.soos.io/api/"
-          scan_mode: "apiscan"
-          api_scan_format: "GraphQL"
-          branch_name: "api-scan-branch"
+          scan_mode: "baseline"
+          on_failure: "fail_the_build"
           verbose: true
          
 
