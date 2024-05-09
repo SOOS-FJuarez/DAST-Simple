@@ -13,8 +13,7 @@ jobs:
           project_name: "GH Actions - DAST Simple"
           target_url: "https://www.dataaccess.com/webservicesserver/NumberConversion.wso"
           api_url: "https://qa-api.soos.io/api/"
-          scan_mode: "apiscan"
-          api_scan_format: "soap"
+          scan_mode: "baseline"
           debug: true
          
 
