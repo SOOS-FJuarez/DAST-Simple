@@ -13,7 +13,7 @@ jobs:
           project_name: "GH Actions - DAST Simple"
           target_url: "https://joaquinalvarez.dev/"
           api_url: "https://qa-api.soos.io/api/"
-          scan_mode: "baeline"
+          scan_mode: "baseline"
           request_cookies: "cookie1:a,cookie2:b"
           request_headers: "additionalHeader:test,additionalHeader2:test2"
           bearer_token: "invalidValue"
