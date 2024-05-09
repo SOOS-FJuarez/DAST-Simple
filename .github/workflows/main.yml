@@ -13,9 +13,8 @@ jobs:
           project_name: "GH Actions - DAST Simple"
           target_url: "https://joaquinalvarez.dev/"
           api_url: "https://qa-api.soos.io/api/"
-          auth_login_url: "https://joaquinalvarez.dev/"
-          auth_username: "franco"
-          auth_password: "Password1!"
+          scan_mode: "apiscan"
+          api_scan_format: "test"
           verbose: true
          
 
