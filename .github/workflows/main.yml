@@ -13,6 +13,6 @@ jobs:
           project_name: "GH Actions - DAST Simple"
           target_url: "https://brokencrystals.com/"
           api_url: 'https://qa-api.soos.io/api/'
-          scan_mode: "apiscan"
+          scan_mode: "fullscan"
          
 
