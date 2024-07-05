@@ -11,9 +11,9 @@ jobs:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "GH Actions - DAST Simple"
-          targetURL: "https://brokencrystals.com/"
+          target_url: "https://brokencrystals.com/"
           api_url: 'https://qa-api.soos.io/api/'
           scan_mode: "baseline"
-          onFailure: "test"
+          on_failure: "test"
          
 
