@@ -10,12 +10,11 @@ jobs:
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: "GH Actions - DAST Simple graphQL"
-          target_url: "https://anilist.co/graphiql"
+          project_name: "GH Actions - DAST Simple baseline"
+          target_url: "https://brokencrystals.com/"
           api_url: 'https://qa-api.soos.io/api/'
-          scan_mode: "apiscan"
-          api_scan_format: "graphQL"
-          branch_name: "graphQL"
+          scan_mode: "baseline"
+          on_failure: "fail_the_build"
           verbose: true
           
          
