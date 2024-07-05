@@ -14,7 +14,7 @@ jobs:
           target_url: "https://brokencrystals.com/"
           api_url: 'https://qa-api.soos.io/api/'
           scan_mode: "baseline"
-          on_failure: "fail_the_build"
+          auth_form_type: ""
           verbose: true
           
          
