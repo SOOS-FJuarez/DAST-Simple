@@ -11,7 +11,6 @@ jobs:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "GH Actions - DAST Simple"
-
           api_url: 'https://qa-api.soos.io/api/'
           scan_mode: "baseline" 
          
