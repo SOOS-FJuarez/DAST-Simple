@@ -10,13 +10,11 @@ jobs:
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: "GH Actions - DAST Simple regex"
-          target_url: "https://demoqa.com/profile"
+          project_name: "GH Actions - DAST Simple API"
+          scan_mode: apiscan
+          api_scan_format: invalid
+          target_url: "https://anilist.co/graphiql"
           api_url: 'https://qa-api.soos.io/api/'
-          auth_login_url: "https://demoqa.com/login"
-          auth_verification_url: https://demoqa.com/Account/v1/User/fbe86d3e-3cd0-4d0c-a13c-d1b19f08644d
-          auth_username: "franco"
-          auth_password: "Temporal1234567!"
           log_level: "DEBUG"
           verbose: true
           
