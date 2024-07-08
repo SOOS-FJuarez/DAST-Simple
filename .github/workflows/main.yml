@@ -14,7 +14,7 @@ jobs:
           target_url: "https://demoqa.com/profile"
           api_url: 'https://qa-api.soos.io/api/'
           auth_login_url: "https://demoqa.com/login"
-          auth_verification_url: 'https://demoqa\.com/Account/(.*)'
+          auth_verification_url: https://demoqa\.com/Account/(.*)
           auth_username: "franco"
           auth_password: "Temporal1234!"
           log_level: "DEBUG"
