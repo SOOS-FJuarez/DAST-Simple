@@ -11,10 +11,12 @@ jobs:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "GH Actions - DAST Simple baseline"
-          target_url: "https://brokencrystals.com/"
+          target_url: "https://joaquinalvarez.dev/"
           api_url: 'https://qa-api.soos.io/api/'
-          scan_mode: "baseline"
-          auth_form_type: ""
+          auth_verification_url: "https://joaquinalvarez.dev/"
+          auth_username: "franco"
+          auth_password: "P4ssw0rd!"
+          log_level: "DEBUG"
           verbose: true
           
          
