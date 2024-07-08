@@ -10,12 +10,11 @@ jobs:
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: "GH Actions - DAST Simple API"
-          scan_mode: "apiscan"
-          api_scan_format: "soap"
-          target_url: "https://www.dataaccess.com/webservicesserver/NumberConversion.wso"
+          project_name: "GH Actions - DAST Simple"
+          scan_mode: "baseline"
+          target_url: "https://brokencrystals.com/"
           api_url: 'https://qa-api.soos.io/api/'
-          log_level: "DEBUG"
+          output_format: NONE
           verbose: true
           
          
