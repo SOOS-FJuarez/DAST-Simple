@@ -14,8 +14,6 @@ jobs:
           scan_mode: "baseline"
           target_url: "https://brokencrystals.com/"
           api_url: 'https://qa-api.soos.io/api/'
-          output_format: SARIF
-          other_options: -d
           verbose: true
           
          
