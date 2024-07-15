@@ -14,6 +14,7 @@ jobs:
           scan_mode: "baseline"
           target_url: "https://brokencrystals.com/"
           api_url: 'https://qa-api.soos.io/api/'
+          branch_name: "branch-1"
           verbose: true
           
          
