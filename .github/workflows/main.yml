@@ -16,7 +16,7 @@ jobs:
           api_url: 'https://api.soos.io/api/'
           #branch_name: "branch-1" 
           verbose: true
-          on_failure: test
+          on_failure: "test"
           
          
 
