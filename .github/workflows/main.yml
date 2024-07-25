@@ -18,7 +18,7 @@ jobs:
           auth_form_type: "simple"
           auth_verification_url: https://demoqa\.com/Account/(.*)
           auth_username: "franco"
-          auth_password: "Temporal1234!"
+          auth_password: "!"
           auth_login_url: "https://demoqa.com/login"
          
 
