@@ -12,7 +12,7 @@ jobs:
           api_key: ${{ secrets.SOOS_API_KEY }}
           project_name: "GH Actions - DAST Simple"
           scan_mode: "apiscan"
-          apiscan_format: "graphql"
+          api_scan_format: "graphql"
           target_url: "https://anilist.co/graphiql" #"https://brokencrystals.com/"
           api_url: 'https://api.soos.io/api/'
           #branch_name: "branch-1" 
