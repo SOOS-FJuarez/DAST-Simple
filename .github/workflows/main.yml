@@ -16,7 +16,7 @@ jobs:
           api_url: 'https://api.soos.io/api/'
           verbose: true
           auth_form_type: "simple"
-          auth_verification_url: https://demoqa\.com/Account/(.*)
+          auth_verification_url: https://demoqa.com/Account/v1/User/fbe86d3e-3cd0-4d0c-a13c-d1b19f08644d
           auth_username: "franco"
           auth_password: "!"
           auth_login_url: "https://demoqa.com/login"
