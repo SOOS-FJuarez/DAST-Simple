@@ -10,13 +10,13 @@ jobs:
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: "GH Actions - DAST Simple 7 - 2"
+          project_name: "GH Actions - DAST Simple 7"
           scan_mode: "baseline"
           target_url: "https://brokencrystals.com/"
           api_url: 'https://qa-api.soos.io/api/'
           #image_tag: alpha
-          #verbose: true
-          log_level: debug
+          verbose: true
+          #log_level: debug
           #log_level: debug
           #auth_form_type: "simple"
           #auth_verification_url: https://demoqa.com/Account/v1/User/fbe86d3e-3cd0-4d0c-a13c-d1b19f08644d
