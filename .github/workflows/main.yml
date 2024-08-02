@@ -6,11 +6,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
-        uses: soos-io/soos-dast-github-action@v2.0.6 # GET Latest Version from https://github.com/marketplace/actions/soos-dast
+        uses: soos-io/soos-dast-github-action@v2.0.10 # GET Latest Version from https://github.com/marketplace/actions/soos-dast
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: "GH Actions - DAST Simple v2.0.6"
+          project_name: "GH Actions - DAST Simple v2.0.10 auth regex"
           scan_mode: "baseline"
           target_url: "https://demoqa.com/profile"
           api_url: 'https://qa-api.soos.io/api/'
