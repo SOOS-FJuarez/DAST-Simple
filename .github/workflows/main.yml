@@ -25,7 +25,7 @@ jobs:
           auth_password_field: password
           auth_submit_field: login
           auth_login_URL: https://demoqa.com/login
-          #auth_verification_url: https://demoqa\.com/Account/(.*)
+          auth_verification_url: 'https://demoqa\.com/Account/(.*)'
           branch_name: image_tag
          
 
