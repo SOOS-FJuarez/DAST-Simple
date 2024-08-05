@@ -30,8 +30,8 @@ jobs:
           auth_password_field: password
           auth_submit_field: login
           auth_login_URL: https://demoqa.com/login
-          branchURI: https://demoqa.com/
-          buildURI: https://demoqa.com/
+          branch_uri: https://demoqa.com/
+          build_uri: https://demoqa.com/
           
           
 
