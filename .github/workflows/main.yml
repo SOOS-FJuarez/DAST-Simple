@@ -10,7 +10,7 @@ jobs:
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: "GH Actions - DAST Simple v2 (Fernando)"
+          project_name: "GH Actions - DAST Simple v2"
           scan_mode: "baseline"
           #api_scan_format: "GraphQL"
           target_url: "https://demoqa.com/profile"
