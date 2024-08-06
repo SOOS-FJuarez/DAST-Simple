@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
-        uses: soos-io/soos-dast-github-action@v2.0.11 # GET Latest Version from https://github.com/marketplace/actions/soos-dast
+        uses: soos-io/soos-dast-github-action@v2 # GET Latest Version from https://github.com/marketplace/actions/soos-dast
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
@@ -22,8 +22,8 @@ jobs:
           #other_options: -d
           verbose: true
           auth_form_type: "simple"
-          auth_verification_url: https://demoqa.com/Account/v1/User/fbe86d3e-3cd0-4d0c-a13c-d1b19f08644d
-          #auth_verification_url: https://demoqa\.com/Account/(.*)
+          #auth_verification_url: https://demoqa.com/Account/v1/User/fbe86d3e-3cd0-4d0c-a13c-d1b19f08644d
+          auth_verification_url: https://demoqa\.com/Account/(.*)
           auth_username: "franco"
           auth_password: "Temporal1234!"
           auth_username_field: username
