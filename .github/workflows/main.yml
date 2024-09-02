@@ -20,7 +20,6 @@ jobs:
           #log_level: debug
           #output_format: SARIF
           #other_options: -d
-          verbose: true
           auth_form_type: "simple"
           #auth_verification_url: https://demoqa.com/Account/v1/User/fbe86d3e-3cd0-4d0c-a13c-d1b19f08644d
           auth_verification_url: https://demoqa\.com/Account/(.*)
@@ -30,8 +29,8 @@ jobs:
           auth_password_field: password
           auth_submit_field: login
           auth_login_URL: https://demoqa.com/login
-          branch_uri: https://demoqa.com/
-          build_uri: https://demoqa.com/
+          
+
           
           
 
