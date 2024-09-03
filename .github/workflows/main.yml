@@ -30,6 +30,7 @@ jobs:
           auth_login_URL: https://demoqa.com/login
           image_tag: alpha
           verbose: true
+          checkoutDir: ""
           
 
           
