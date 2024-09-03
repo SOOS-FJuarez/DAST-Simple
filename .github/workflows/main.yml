@@ -6,7 +6,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
-        uses: soos-io/soos-dast-github-action@be996b4b596d02886eef124d5f2b186524d9d122 #GET Latest Version from https://github.com/marketplace/actions/soos-dast
+        uses: soos-io/soos-dast-github-action@8a16fca3bc847f3c41ddbb365625fc7c83cfa777 #GET Latest Version from https://github.com/marketplace/actions/soos-dast
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
