@@ -10,15 +10,14 @@ jobs:
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          project_name: "GH Actions - DAST Simple"
+          project_name: "GH Actions - DAST Simple alpha"
           scan_mode: "baseline"
           #api_scan_format: "GraphQL"
           target_url: "https://demoqa.com/profile"
           api_url: 'https://qa-api.soos.io/api/'
-          image_tag: latest
           on_failure: continue_on_failure
           log_level: INFO
-          #output_format: SARIF
+          output_format: SARIF
           #other_options: -d
           auth_form_type: "simple"
           #auth_verification_url: https://demoqa.com/Account/v1/User/fbe86d3e-3cd0-4d0c-a13c-d1b19f08644d
@@ -29,6 +28,7 @@ jobs:
           auth_password_field: password
           auth_submit_field: login
           auth_login_URL: https://demoqa.com/login
+          image_tag: alpha
           verbose: true
           
 
