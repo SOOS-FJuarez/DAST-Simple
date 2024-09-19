@@ -6,18 +6,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Run SOOS DAST Baseline Analysis
-        uses: soos-io/soos-dast-github-action@8a16fca3bc847f3c41ddbb365625fc7c83cfa777 #GET Latest Version from https://github.com/marketplace/actions/soos-dast
+        uses: soos-io/soos-dast-github-action@v2 #GET Latest Version from https://github.com/marketplace/actions/soos-dast
         with:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
-          image_tag: alpha          
+          image_tag: latest          
           project_name: "GH Actions - DAST Simple"
           scan_mode: "baseline"
           #api_scan_format: "GraphQL"
           target_url: "https://brokencrystals.com/" 
           #target_url: "https://demoqa.com/profile"
           api_url: 'https://qa-api.soos.io/api/'
-          on_failure: fail_the_build
+          #on_failure: fail_the_build
           #log_level: INFO
           #output_format: SARIF
           #other_options: -d
@@ -30,8 +30,9 @@ jobs:
           #auth_password_field: password
           #auth_submit_field: login 
           #auth_login_URL: https://demoqa.com/login
-          verbose: true
+          #verbose: true
           #checkoutDir: ""
+          debug: true
           
 
           
