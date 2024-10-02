@@ -11,7 +11,7 @@ jobs:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           image_tag: latest          
-          project_name: "GH Actions - DAST Simple"
+          project_name: "GH Actions - DAST Simple" 
           scan_mode: "baseline" 
           #api_scan_format: "GraphQL"
           target_url: "https://brokencrystals.com/" 
