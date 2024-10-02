@@ -19,7 +19,7 @@ jobs:
           api_url: 'https://qa-api.soos.io/api/'
           #on_failure: fail_the_build
           log_level: DEBUG
-          output_format: NONE
+          #output_format: NONE
           #other_options: -d
           #auth_form_type: "simple"
           #auth_verification_url: https://demoqa.com/Account/v1/User/fbe86d3e-3cd0-4d0c-a13c-d1b19f08644d
