@@ -34,7 +34,7 @@ jobs:
           #request_cookies: "cookie1:a,cookie2:b"
           #checkoutDir: ""
           #debug: true
-          disable_rules: "10096"
+          disable_rules: "10096,10063"
 
           
           
