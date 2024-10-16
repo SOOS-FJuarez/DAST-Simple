@@ -11,7 +11,7 @@ jobs:
           client_id: ${{ secrets.SOOS_CLIENT_ID }}
           api_key: ${{ secrets.SOOS_API_KEY }}
           image_tag: beta          
-          project_name: "GH Actions - DAST Simple 2" 
+          project_name: "GH Actions - DAST Simple" 
           scan_mode: "baseline" 
           #api_scan_format: "GraphQL"
           target_url: "https://joaquinalvarez.dev/" 
@@ -34,7 +34,7 @@ jobs:
           #request_cookies: "cookie1:a,cookie2:b"
           #checkoutDir: ""
           #debug: true
-          disable_rules: "10096,10063"
+          #disable_rules: "10096,10063"
 
           
           
