@@ -16,7 +16,7 @@ jobs:
           #api_scan_format: "GraphQL"
           target_url: "https://joaquinalvarez.dev/" 
           #target_url: "https://demoqa.com/profile"
-          #api_url: 'https://qa-api.soos.io/api/'
+          api_url: 'https://qa-api.soos.io/api/'
           #on_failure: fail_the_build
           log_level: DEBUG
           #output_format: NONE
@@ -34,7 +34,7 @@ jobs:
           #request_cookies: "cookie1:a,cookie2:b"
           #checkoutDir: ""
           #debug: true
-          disable_rules: "10096,10063"
+          #disable_rules: "10096,10063"
 
           
           
