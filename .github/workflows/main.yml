@@ -13,28 +13,23 @@ jobs:
           image_tag: latest          
           project_name: "GH Actions - DAST Simple" 
           scan_mode: "baseline" 
-          #api_scan_format: "GraphQL"
-          target_url: "https://joaquinalvarez.dev/" 
-          #target_url: "https://demoqa.com/profile"
-          api_url: 'https://qa-api.soos.io/api/'
-          #on_failure: fail_the_build
+          target_url: "https://brokencrystals.com/" 
+          api_url: 'https://api.soos.io/api/'
           log_level: DEBUG
-          #output_format: NONE
-          #other_options: -d
-          #auth_form_type: "simple"
-          #auth_verification_url: https://demoqa.com/Account/v1/User/fbe86d3e-3cd0-4d0c-a13c-d1b19f08644d
-          #auth_verification_url: https://demoqa\.com/Account/(.*)
-          #auth_username: "franco"
-          #auth_password: "Temporal1234!"
-          #auth_username_field: username
-          #auth_password_field: password
-          #auth_submit_field: login 
-          #auth_login_URL: https://demoqa.com/login
-          #verbose: true
-          #request_cookies: "cookie1:a,cookie2:b"
-          #checkoutDir: ""
-          #debug: true
-          #disable_rules: "10096,10063"
+          export_format: sarif
+          export_file_type: json
+          
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: 'reports'
+          path: '*'
+      - name: Rename file 
+        run: mv *.sarif.json results.sarif
+      - name: Upload SOOS DAST SARIF Report
+        uses: github/codeql-action/upload-sarif@v3
+        with:
+          sarif_file: results.sarif
 
           
           
